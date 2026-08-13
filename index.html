@@ -24,7 +24,7 @@
 </head>
 <body class="bg-black text-zinc-100 font-sans selection:bg-gold-500 selection:text-black">
 
-    <!-- BARRA DE NAVEGACIÓN CON LAS DOS VISTAS SEPARADAS -->
+    <!-- BARRA DE NAVEGACIÓN CON LAS DOS VENTAS SEPARADAS -->
     <header class="sticky top-0 z-50 bg-black/95 backdrop-blur-md border-b border-zinc-900">
         <div class="max-w-7xl mx-auto px-4 h-20 flex justify-between items-center">
             <div class="flex items-center space-x-3">
@@ -58,17 +58,17 @@
             <button onclick="mostrarSeccion('tech')" class="bg-zinc-900 hover:bg-zinc-800 border border-gold-500/40 p-8 rounded-2xl text-left transition group">
                 <i class="fas fa-laptop-code text-3xl text-gold-400 mb-4 group-hover:scale-110 transition"></i>
                 <h3 class="text-2xl font-bold text-white">KMI Global Tech</h3>
-                <p class="text-xs text-zinc-400 mt-2">Flyers, vallas publicitarias, acrílicos, tazas y stickers.</p>
+                <p class="text-xs text-zinc-400 mt-2">Flyers, vallas publicitarias de negocios, acrílicos, tazas y stickers.</p>
             </button>
             <button onclick="mostrarSeccion('bodegon')" class="bg-zinc-900 hover:bg-zinc-800 border border-gold-500/40 p-8 rounded-2xl text-left transition group">
                 <i class="fas fa-store text-3xl text-gold-400 mb-4 group-hover:scale-110 transition"></i>
                 <h3 class="text-2xl font-bold text-white">Phoenix Bodegón</h3>
-                <p class="text-xs text-zinc-400 mt-2">Harinas, arroz, aceites, víveres, embutidos y limpieza.</p>
+                <p class="text-xs text-zinc-400 mt-2">Paquetes de harina PAN, sacos y empaques de arroz, pastas y víveres reales.</p>
             </button>
         </div>
     </section>
 
-    <!-- SECCIÓN KMI GLOBAL TECH (OCULTA POR DEFECTO HASTA SELECCIONAR) -->
+    <!-- SECCIÓN KMI GLOBAL TECH -->
     <div id="vista-tech" class="hidden py-16 max-w-7xl mx-auto px-4">
         <div class="flex justify-between items-center border-b border-zinc-900 pb-6 mb-12">
             <div>
@@ -78,93 +78,92 @@
             <button onclick="mostrarSeccion('inicio')" class="text-xs bg-zinc-900 hover:bg-zinc-800 text-zinc-300 px-4 py-2 rounded-xl border border-zinc-800 transition">← Volver al Menú</button>
         </div>
 
-        <!-- Flyers Reales de Diseño Publicitario -->
+        <!-- Flyers de Diseño Publicitario -->
         <div class="mb-16">
             <h3 class="text-2xl font-bold text-gold-400 mb-6 flex items-center gap-3">
-                <i class="fas fa-layer-group"></i> Flyers Publicitarios (Muestras de Diseño Gráfico)
+                <i class="fas fa-layer-group"></i> Flyers Publicitarios (Diseños Comerciales para Negocios)
             </h3>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
                 <div class="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden group">
                     <div class="h-40 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=400&auto=format&fit=crop&q=80" alt="Flyer Diseño" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1542744094-3a31246264d0?w=400&auto=format&fit=crop&q=80" alt="Flyer Bodegón" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
-                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Vectorial #1</span></div>
+                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Bodegón #1</span></div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden group">
                     <div class="h-40 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?w=400&auto=format&fit=crop&q=80" alt="Flyer Arte" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=400&auto=format&fit=crop&q=80" alt="Flyer Comércio" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Comercial #2</span></div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden group">
                     <div class="h-40 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&auto=format&fit=crop&q=80" alt="Flyer Gaming" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&auto=format&fit=crop&q=80" alt="Flyer Ofertas" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
-                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Eventos #3</span></div>
+                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Ofertas #3</span></div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden group">
                     <div class="h-40 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&auto=format&fit=crop&q=80" alt="Flyer Redes" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&auto=format&fit=crop&q=80" alt="Flyer Negocio" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
-                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Redes #4</span></div>
+                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Tienda #4</span></div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden group">
                     <div class="h-40 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=80" alt="Flyer Arte Digital" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=400&auto=format&fit=crop&q=80" alt="Flyer Ventas" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
-                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Digital #5</span></div>
+                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Ventas #5</span></div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden group">
                     <div class="h-40 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?w=400&auto=format&fit=crop&q=80" alt="Flyer Creativo" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&auto=format&fit=crop&q=80" alt="Flyer Promo" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
-                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Estilo #6</span></div>
+                    <div class="p-2 text-center"><span class="text-xs text-zinc-300">Flyer Promoción #6</span></div>
                 </div>
             </div>
-            <p class="text-xs text-zinc-500 mt-3 italic">* Se pueden desplegar más de 30 opciones de muestras reales para clientes.</p>
         </div>
 
-        <!-- Vallas Publicitarias Reales -->
+        <!-- Vallas Publicitarias de Comercios Reales -->
         <div class="mb-16">
             <h3 class="text-2xl font-bold text-gold-400 mb-6 flex items-center gap-3">
-                <i class="fas fa-billboard"></i> Vallas Publicitarias (Exhibición Exterior Real)
+                <i class="fas fa-billboard"></i> Vallas Publicitarias (Exhibición de Comercios y Bodegas)
             </h3>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden group">
                     <div class="h-48 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600&auto=format&fit=crop&q=80" alt="Valla Exterior" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&auto=format&fit=crop&q=80" alt="Valla de Tienda Comercial" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <div class="p-5">
-                        <h4 class="font-bold text-lg text-white">Valla Monumental Urbana</h4>
-                        <p class="text-sm text-zinc-400 mt-1">Impresión en lona front de alta resistencia para exteriores y autopistas.</p>
+                        <h4 class="font-bold text-lg text-white">Valla Comercial para Bodega y Local</h4>
+                        <p class="text-sm text-zinc-400 mt-1">Publicidad exterior instalada en fachadas y negocios para mostrar marcas de comercios reales.</p>
                     </div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden group">
                     <div class="h-48 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=80" alt="Valla Comercial" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80" alt="Valla Publicitaria de Negocio" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <div class="p-5">
-                        <h4 class="font-bold text-lg text-white">Estructura Publicitaria de Visibilidad</h4>
-                        <p class="text-sm text-zinc-400 mt-1">Diseño estratégico para posicionamiento masivo de marcas corporativas.</p>
+                        <h4 class="font-bold text-lg text-white">Valla de Gran Formato en Vía Pública</h4>
+                        <p class="text-sm text-zinc-400 mt-1">Estructura publicitaria exterior diseñada para destacar el nombre comercial de establecimientos.</p>
                     </div>
                 </div>
                 <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden group">
                     <div class="h-48 bg-zinc-950 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&auto=format&fit=crop&q=80" alt="Valla Luminosa" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&auto=format&fit=crop&q=80" alt="Valla Corporativa" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <div class="p-5">
-                        <h4 class="font-bold text-lg text-white">Valla Backlight Nocturna</h4>
-                        <p class="text-sm text-zinc-400 mt-1">Estructuras iluminadas para impacto visual continuo las 24 horas.</p>
+                        <h4 class="font-bold text-lg text-white">Letrero y Valla de Negocio Local</h4>
+                        <p class="text-sm text-zinc-400 mt-1">Identificación visual exterior adaptada para la marca y el letrero de tiendas y bodegas.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Acrílicos, Tazas y Stickers con Fotos Reales Exactas -->
+        <!-- Acrílicos, Tazas y Stickers -->
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden group">
                 <div class="h-48 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500&auto=format&fit=crop&q=80" alt="Acrílico" class="w-full h-full object-cover group-hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&auto=format&fit=crop&q=80" alt="Acrílico" class="w-full h-full object-cover group-hover:scale-105 transition">
                 </div>
                 <div class="p-5">
                     <h4 class="font-bold text-white mb-1">Letreros y Cuadros en Acrílico</h4>
@@ -182,7 +181,7 @@
             </div>
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden group">
                 <div class="h-48 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=80" alt="Stickers" class="w-full h-full object-cover group-hover:scale-105 transition">
+                    <img src="https://images.unsplash.com/photo-1572375103325-15d2f7f9cbd1?w=500&auto=format&fit=crop&q=80" alt="Stickers" class="w-full h-full object-cover group-hover:scale-105 transition">
                 </div>
                 <div class="p-5">
                     <h4 class="font-bold text-white mb-1">Stickers Troquelados</h4>
@@ -192,7 +191,7 @@
         </div>
     </div>
 
-    <!-- SECCIÓN PHOENIX BODEGÓN (OCULTA POR DEFECTO HASTA SELECCIONAR) -->
+    <!-- SECCIÓN PHOENIX BODEGÓN -->
     <div id="vista-bodegon" class="hidden py-16 max-w-7xl mx-auto px-4">
         <div class="flex justify-between items-center border-b border-zinc-900 pb-6 mb-12">
             <div>
@@ -202,82 +201,90 @@
             <button onclick="mostrarSeccion('inicio')" class="text-xs bg-zinc-900 hover:bg-zinc-800 text-zinc-300 px-4 py-2 rounded-xl border border-zinc-800 transition">← Volver al Menú</button>
         </div>
 
-        <!-- Productos Reales de Bodegón -->
+        <!-- Productos de Bodegón con Imágenes Reales de Múltiples Paquetes / Inventario -->
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Harina PAN y Harinas -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4 flex flex-col justify-between group">
                 <div>
                     <div class="h-40 bg-zinc-950 rounded-xl mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&auto=format&fit=crop&q=80" alt="Harinas y Trigo" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&auto=format&fit=crop&q=80" alt="Paquetes de Harina PAN en inventario" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
-                    <h4 class="font-bold text-white text-sm">Harina PAN y Harina de Trigo</h4>
+                    <h4 class="font-bold text-white text-sm">Harina PAN y Harina de Trigo (Varios Paquetes)</h4>
                 </div>
                 <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Harina%20PAN%20y%20Trigo" target="_blank" class="mt-4 bg-zinc-800 hover:bg-gold-500 hover:text-black text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
             </div>
 
+            <!-- Arroz y Pastas -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4 flex flex-col justify-between group">
                 <div>
                     <div class="h-40 bg-zinc-950 rounded-xl mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1586201375621-3373cc4b87d5?w=400&auto=format&fit=crop&q=80" alt="Arroz y Pasta" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1586201375621-3373cc4b87d5?w=400&auto=format&fit=crop&q=80" alt="Varios paquetes de Arroz y Espagueti" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
-                    <h4 class="font-bold text-white text-sm">Arroz Grano Selecto y Pasta</h4>
+                    <h4 class="font-bold text-white text-sm">Arroz y Espagueti (Empaques y Paquetes)</h4>
                 </div>
-                <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Arroz%20y%20Pasta" target="_blank" class="mt-4 bg-zinc-800 hover:bg-gold-500 hover:text-black text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
+                <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Arroz%20y%20Espagueti" target="_blank" class="mt-4 bg-zinc-800 hover:bg-gold-500 hover:text-black text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
             </div>
 
+            <!-- Aceites y Salsas -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4 flex flex-col justify-between group">
                 <div>
                     <div class="h-40 bg-zinc-950 rounded-xl mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&auto=format&fit=crop&q=80" alt="Aceite Comestible" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&auto=format&fit=crop&q=80" alt="Botellas de aceite y salsas en estante" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
-                    <h4 class="font-bold text-white text-sm">Aceite Vegetal y Salsas</h4>
+                    <h4 class="font-bold text-white text-sm">Aceite Vegetal y Salsas (Variedad)</h4>
                 </div>
                 <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Aceite%20y%20Salsas" target="_blank" class="mt-4 bg-zinc-800 hover:bg-gold-500 hover:text-black text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
             </div>
 
+            <!-- Refrescos y Bebidas -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4 flex flex-col justify-between group">
                 <div>
                     <div class="h-40 bg-zinc-950 rounded-xl mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400&auto=format&fit=crop&q=80" alt="Bebidas y Refrescos" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400&auto=format&fit=crop&q=80" alt="Bebidas y refrescos fríos en exhibición" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <h4 class="font-bold text-white text-sm">Refrescos, Maltas y Jugos</h4>
                 </div>
                 <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Refrescos%20y%20Bebidas" target="_blank" class="mt-4 bg-zinc-800 hover:bg-gold-500 hover:text-black text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
             </div>
 
+            <!-- Quesos y Embutidos -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4 flex flex-col justify-between group">
                 <div>
                     <div class="h-40 bg-zinc-950 rounded-xl mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1560781290-7dc942e27f90?w=400&auto=format&fit=crop&q=80" alt="Embutidos y Queso" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=400&auto=format&fit=crop&q=80" alt="Embutidos y quesos variados" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <h4 class="font-bold text-white text-sm">Quesos, Jamón y Embutidos</h4>
                 </div>
                 <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Queso%20y%20Embutidos" target="_blank" class="mt-4 bg-zinc-800 hover:bg-gold-500 hover:text-black text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
             </div>
 
+            <!-- Huevos y Leche -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4 flex flex-col justify-between group">
                 <div>
                     <div class="h-40 bg-zinc-950 rounded-xl mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=400&auto=format&fit=crop&q=80" alt="Huevos y Leche" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?w=400&auto=format&fit=crop&q=80" alt="Cartones de huevos y leche" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <h4 class="font-bold text-white text-sm">Huevos Frescos y Leche</h4>
                 </div>
                 <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Huevos%20y%20Leche" target="_blank" class="mt-4 bg-zinc-800 hover:bg-gold-500 hover:text-black text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
             </div>
 
+            <!-- Golosinas y Snacks -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4 flex flex-col justify-between group">
                 <div>
                     <div class="h-40 bg-zinc-950 rounded-xl mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1599488615731-7e5c2823ff29?w=400&auto=format&fit=crop&q=80" alt="Snacks y Golosinas" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400&auto=format&fit=crop&q=80" alt="Golosinas y snacks surtidos" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <h4 class="font-bold text-white text-sm">Golosinas y Snacks</h4>
                 </div>
                 <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Golosinas%20y%20Snacks" target="_blank" class="mt-4 bg-zinc-800 hover:bg-gold-500 hover:text-black text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
             </div>
 
+            <!-- Limpieza y Hogar -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-4 flex flex-col justify-between group">
                 <div>
                     <div class="h-40 bg-zinc-950 rounded-xl mb-3 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?w=400&auto=format&fit=crop&q=80" alt="Limpieza" class="w-full h-full object-cover group-hover:scale-105 transition">
+                        <img src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?w=400&auto=format&fit=crop&q=80" alt="Productos de limpieza para el hogar" class="w-full h-full object-cover group-hover:scale-105 transition">
                     </div>
                     <h4 class="font-bold text-white text-sm">Artículos de Limpieza y Hogar</h4>
                 </div>
