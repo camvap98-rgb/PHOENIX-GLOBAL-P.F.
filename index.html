@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMI Global Tech & Phoenix Bodegón | Maturín</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans">
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <span class="text-xl font-black tracking-wider text-amber-400">KMI GLOBAL GROUP</span>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-semibold">
+                <button onclick="switchTab('inicio')" class="hover:text-amber-400 transition">Inicio</button>
+                <button onclick="switchTab('tech')" class="hover:text-amber-400 transition">KMI Global Tech</button>
+                <button onclick="switchTab('bodegon')" class="hover:text-amber-400 transition">Phoenix Bodegón</button>
+            </nav>
+            <a href="https://wa.me/584249365400" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center space-x-2 transition">
+                <i class="fab fa-whatsapp text-lg"></i>
+                <span>+58 424-9365400</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+
+        <!-- SECCIÓN INICIO -->
+        <section id="inicio" class="tab-content space-y-12">
+            <div class="text-center space-y-4 py-12 bg-gradient-to-b from-slate-900 to-slate-950 rounded-3xl border border-slate-800 p-8 shadow-2xl">
+                <h1 class="text-4xl md:text-6xl font-black tracking-tight text-white">Innovación Tecnológica y <span class="text-amber-400">Comercio General</span></h1>
+                <p class="text-slate-400 max-w-2xl mx-auto text-lg">La matriz de negocios oficial en Maturín, Monagas, Venezuela. Soluciones gráficas, publicidad de alto nivel y abastecimiento completo para el hogar.</p>
+                <div class="flex justify-center gap-4 pt-4">
+                    <button onclick="switchTab('tech')" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-6 py-3 rounded-xl transition">Ver KMI Global Tech</button>
+                    <button onclick="switchTab('bodegon')" class="bg-slate-800 hover:bg-slate-700 text-white font-bold px-6 py-3 rounded-xl border border-slate-700 transition">Ver Phoenix Bodegón</button>
+                </div>
+            </div>
+
+            <!-- DIVISIONES RÁPIDAS -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <div onclick="switchTab('tech')" class="cursor-pointer bg-slate-900 border border-slate-800 hover:border-amber-500/50 p-8 rounded-3xl transition group">
+                    <div class="h-48 rounded-2xl mb-6 overflow-hidden bg-slate-950 flex items-center justify-center border border-slate-800">
+                        <i class="fas fa-laptop-code text-5xl text-amber-400 group-hover:scale-110 transition duration-300"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">KMI Global Tech</h3>
+                    <p class="text-slate-400">Diseño gráfico profesional, mockups 3D, vallas publicitarias, cuadros en acrílico, tazas personalizadas y planchas de stickers con la más alta calidad real.</p>
+                </div>
+
+                <div onclick="switchTab('bodegon')" class="cursor-pointer bg-slate-900 border border-slate-800 hover:border-amber-500/50 p-8 rounded-3xl transition group">
+                    <div class="h-48 rounded-2xl mb-6 overflow-hidden bg-slate-950 flex items-center justify-center border border-slate-800">
+                        <i class="fas fa-store text-5xl text-amber-400 group-hover:scale-110 transition duration-300"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">Phoenix Bodegón</h3>
+                    <p class="text-slate-400">Todo en víveres, alimentos de primera necesidad, embutidos, carnes, limpieza del hogar y cuidado personal con fotos reales y disponibilidad inmediata.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN KMI GLOBAL TECH -->
+        <section id="tech" class="tab-content hidden space-y-8">
+            <div class="flex justify-between items-center border-b border-slate-800 pb-4">
+                <div>
+                    <h2 class="text-3xl font-black text-amber-400">KMI Global Tech</h2>
+                    <p class="text-slate-400 text-sm">Servicios de Publicidad, Diseño y Marketing Visual</p>
+                </div>
+                <button onclick="switchTab('inicio')" class="text-sm text-slate-400 hover:text-white">&larr; Volver al inicio</button>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Item Tech 1 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden">
+                    <div class="h-48 bg-slate-800 flex items-center justify-center text-slate-500 font-semibold">[Foto Real: Valla Publicitaria]</div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-lg mb-1">Vallas Publicitarias</h4>
+                        <p class="text-sm text-slate-400 mb-4">Diseño e impresión de alto impacto visual para exteriores y autopistas.</p>
+                        <a href="https://wa.me/584249365400?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20vallas%20publicitarias" target="_blank" class="block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-2 rounded-xl text-sm transition">Cotizar por WhatsApp</a>
+                    </div>
+                </div>
+                <!-- Item Tech 2 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden">
+                    <div class="h-48 bg-slate-800 flex items-center justify-center text-slate-500 font-semibold">[Foto Real: Cuadro Acrílico]</div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-lg mb-1">Cuadros en Acrílico</h4>
+                        <p class="text-sm text-slate-400 mb-4">Acabados elegantes y modernos para oficinas y decoración corporativa.</p>
+                        <a href="https://wa.me/584249365400?text=Hola,%20quiero%20información%20de%20los%20cuadros%20en%20acrílico" target="_blank" class="block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-2 rounded-xl text-sm transition">Cotizar por WhatsApp</a>
+                    </div>
+                </div>
+                <!-- Item Tech 3 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden">
+                    <div class="h-48 bg-slate-800 flex items-center justify-center text-slate-500 font-semibold">[Foto Real: Merchandising / Tazas]</div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-lg mb-1">Tazas y Stickers</h4>
+                        <p class="text-sm text-slate-400 mb-4">Planchas de stickers personalizados y tazas institucionales con tu marca.</p>
+                        <a href="https://wa.me/584249365400?text=Hola,%20necesito%20tazas%20y%20stickers%20personalizados" target="_blank" class="block text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-2 rounded-xl text-sm transition">Cotizar por WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PHOENIX BODEGÓN -->
+        <section id="bodegon" class="tab-content hidden space-y-8">
+            <div class="flex justify-between items-center border-b border-slate-800 pb-4">
+                <div>
+                    <h2 class="text-3xl font-black text-amber-400">Phoenix Bodegón</h2>
+                    <p class="text-slate-400 text-sm">Víveres, Alimentos, Limpieza y Artículos del Hogar</p>
+                </div>
+                <button onclick="switchTab('inicio')" class="text-sm text-slate-400 hover:text-white">&larr; Volver al inicio</button>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- Producto 1 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="h-32 bg-slate-800 rounded-xl mb-3 flex items-center justify-center text-xs text-slate-500">[Foto Real: Harina PAN]</div>
+                        <h5 class="font-bold text-sm">Harina de Maíz (Harina PAN)</h5>
+                    </div>
+                    <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Harina%20PAN" target="_blank" class="mt-4 bg-slate-800 hover:bg-emerald-600 text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
+                </div>
+                <!-- Producto 2 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="h-32 bg-slate-800 rounded-xl mb-3 flex items-center justify-center text-xs text-slate-500">[Foto Real: Arroz y Pasta]</div>
+                        <h5 class="font-bold text-sm">Arroz y Espagueti</h5>
+                    </div>
+                    <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Arroz%20y%20Espagueti" target="_blank" class="mt-4 bg-slate-800 hover:bg-emerald-600 text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
+                </div>
+                <!-- Producto 3 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="h-32 bg-slate-800 rounded-xl mb-3 flex items-center justify-center text-xs text-slate-500">[Foto Real: Aceite y Salsas]</div>
+                        <h5 class="font-bold text-sm">Salsas, Mayonesa y Aceite</h5>
+                    </div>
+                    <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Salsas%20y%20Aceite" target="_blank" class="mt-4 bg-slate-800 hover:bg-emerald-600 text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
+                </div>
+                <!-- Producto 4 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="h-32 bg-slate-800 rounded-xl mb-3 flex items-center justify-center text-xs text-slate-500">[Foto Real: Refrescos y Maltas]</div>
+                        <h5 class="font-bold text-sm">Refrescos y Maltas</h5>
+                    </div>
+                    <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Refrescos%20y%20Maltas" target="_blank" class="mt-4 bg-slate-800 hover:bg-emerald-600 text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
+                </div>
+                <!-- Producto 5 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="h-32 bg-slate-800 rounded-xl mb-3 flex items-center justify-center text-xs text-slate-500">[Foto Real: Queso y Embutidos]</div>
+                        <h5 class="font-bold text-sm">Queso, Pollo y Mortadela</h5>
+                    </div>
+                    <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Queso%20y%20Embutidos" target="_blank" class="mt-4 bg-slate-800 hover:bg-emerald-600 text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
+                </div>
+                <!-- Producto 6 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between">
+                    <div>
+                        <div class="h-32 bg-slate-800 rounded-xl mb-3 flex items-center justify-center text-xs text-slate-500">[Foto Real: Limpieza y Higiene]</div>
+                        <h5 class="font-bold text-sm">Detergentes y Jabón</h5>
+                    </div>
+                    <a href="https://wa.me/584249365400?text=Hola,%20quiero%20pedir%20Artículos%20de%20Limpieza" target="_blank" class="mt-4 bg-slate-800 hover:bg-emerald-600 text-white font-bold py-2 rounded-lg text-xs text-center transition">Pedir al WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA Y REDES -->
+    <footer class="bg-slate-900 border-t border-slate-800 mt-16 py-8">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-sm text-slate-500">&copy; 2026 KMI Global Group, F.P. / Phoenix Global Tech, P.F. Maturín, Venezuela.</p>
+            <div class="flex space-x-6 text-xl">
+                <a href="https://instagram.com" target="_blank" class="text-slate-400 hover:text-amber-400 transition"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com" target="_blank" class="text-slate-400 hover:text-amber-400 transition"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/584249365400" target="_blank" class="text-slate-400 hover:text-emerald-500 transition"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT DE NAVEGACIÓN DE PESTAÑAS -->
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById(tabId).classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
